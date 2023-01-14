@@ -1,0 +1,46 @@
+html {
+  font-size: 62.5%;
+}
+
+p {
+  color: red;
+  padding: 2rem;
+  background-color: #00aefd;
+}
+
+.header {
+  padding: 2rem;
+  background-color: black;
+}
+.header-inner {
+  color: #fff;
+}
+.header-inner-text {
+  color: blue;
+}
+.header-inner-text:hover {
+  color: orange;
+}
+.header-inner:hover {
+  color: red;
+}
+.header-inner-text:hover {
+  color: purple;
+}
+@media screen and (min-width: 1024px) {
+  .header {
+    display: none;
+  }
+}
+
+.box {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=style.css.map */

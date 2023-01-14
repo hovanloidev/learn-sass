@@ -1,0 +1,40 @@
+header {
+  background-color: orange;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+section button {
+  background-color: orange;
+  border: 0;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+  background-color: aliceblue;
+}
+
+.button2, .button1 {
+  background-color: orange;
+  border: 0;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer button {
+  background-color: orange;
+  border: 0;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */

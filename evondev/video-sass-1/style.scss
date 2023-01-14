@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+}
+
+// Variables
+@import "./variables";
+@import "./mixins";
+p {
+  color: $textColor;
+  padding: 2rem;
+  background-color: $bgColor;
+}
+
+// Nested code
+.header {
+  padding: 2rem;
+  background-color: black;
+  &-inner {
+    color: #fff;
+    &-text {
+      color: blue;
+      &:hover {
+        color: orange;
+      }
+    }
+    &:hover {
+      color: red;
+    }
+  }
+  &-inner-text:hover {
+    color: purple;
+  }
+  @include minWidth(1024px) {
+    display: none
+  }
+}
+
+// Mixin
+
+
+.box {
+  @include bgc(red);
+  @include size(100px);
+  @include absoluteCenter("both");
+}
